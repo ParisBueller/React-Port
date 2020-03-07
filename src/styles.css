@@ -1,0 +1,17 @@
+body {
+  height: 100vh;
+  margin: 0;
+  background: whitesmoke;
+}
+
+body:before{
+  content: "";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  width: 900px;
+  background: #000;
+  transform: skew(-30deg);
+  transform-origin: top;
+}
